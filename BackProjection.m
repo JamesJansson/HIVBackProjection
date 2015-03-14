@@ -132,7 +132,7 @@ matlabpool(str2num(getenv( 'NUMBER_OF_PROCESSORS' ))-2);%this may not work in al
 Px.ConsiderRecentInfection=ConsiderRecentInfection;
 
 % Sort individuals by year of diagnosis
-BackProjectStartSingleYearAnalysis=1984;
+
 
 [~, NumberInPatientCurrently]=size(Patient);
 YearIndex=0;
